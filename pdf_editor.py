@@ -19,7 +19,7 @@ def print_help_and_exit():
       --pdf-b=<elérési út>    - A második PDF elérési útja (beillesztéshez szükséges).
       --delete-page=N         - Egy adott (N-edik) oldalt töröl.
       --delete-range=S-E      - Egy intervallum (S-től E-ig, zárt) oldalait törli.
-      --insert=N              - Ha két PDF van megadva, a második fájlt az N-edik oldal után illeszti be.
+      --insert=N              - Ha két PDF van megadva, a második fájlt az N-edik oldalra illeszti be. pl: N=2 akkor pdf-b első oldala pdf-a 2. oldalán kezdődik.
 
     Példák:
       1. Egy adott oldal törlése:
